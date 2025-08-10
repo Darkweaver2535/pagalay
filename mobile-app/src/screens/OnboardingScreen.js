@@ -89,7 +89,7 @@ export default function OnboardingScreen({ navigation }) {
             <View style={styles.featureContent}>
               <Text style={styles.featureTitle}>Pagos QR</Text>
               <Text style={styles.featureDescription}>
-                Cobra con QR, recibe MATIC convertido a bolivianos
+                Cobra con QR, recibe Criptomonedas y conviertelos en Bolivianos al toque!
               </Text>
             </View>
           </View>

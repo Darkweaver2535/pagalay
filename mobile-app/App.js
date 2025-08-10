@@ -10,6 +10,12 @@ import OnboardingScreen from './src/screens/OnboardingScreen';
 import AuthScreen from './src/screens/AuthScreen';
 import HomeScreen from './src/screens/HomeScreen';
 import QRScannerScreen from './src/screens/QRScannerScreen';
+import BasicDataScreen from './src/screens/BasicDataScreen';
+import IdentityScreen from './src/screens/IdentityScreen';
+import SecurityScreen from './src/screens/SecurityScreen';
+import WalletSetupScreen from './src/screens/WalletSetupScreen';
+import BackupPhraseScreen from './src/screens/BackupPhraseScreen';
+import CompletionScreen from './src/screens/CompletionScreen';
 
 // Importar contexto
 import { AuthProvider } from './src/context/AuthContext';
@@ -72,7 +78,37 @@ export default function App() {
             <Stack.Screen 
               name="Auth" 
               component={AuthScreen}
-              options={{ title: 'Pagalay' }}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen 
+              name="BasicData" 
+              component={BasicDataScreen}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen 
+              name="IdentityScreen" 
+              component={IdentityScreen}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen 
+              name="SecurityScreen" 
+              component={SecurityScreen}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen 
+              name="WalletSetupScreen" 
+              component={WalletSetupScreen}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen 
+              name="BackupPhraseScreen" 
+              component={BackupPhraseScreen}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen 
+              name="CompletionScreen" 
+              component={CompletionScreen}
+              options={{ headerShown: false }}
             />
             <Stack.Screen 
               name="Home" 
