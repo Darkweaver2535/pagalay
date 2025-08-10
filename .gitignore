@@ -1,0 +1,81 @@
+# Dependencias
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+lerna-debug.log*
+
+# Cache
+.npm
+.eslintcache
+.cache/
+
+# Build outputs
+build/
+dist/
+out/
+
+# Smart Contracts
+smart-contracts/artifacts/
+smart-contracts/cache/
+smart-contracts/typechain/
+smart-contracts/coverage/
+smart-contracts/.openzeppelin/
+
+# Mobile App (React Native/Expo)
+mobile-app/.expo/
+mobile-app/dist/
+mobile-app/web-build/
+
+# Backend
+backend-api/uploads/
+backend-api/logs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Database
+*.db
+*.sqlite3
+
+# Certificates
+*.pem
+*.p12
+*.crt
+*.key
+
+# Blockchain private keys
+private.key
+mnemonic.txt
+*.wallet
+
+# Test coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/
